@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginVC: UIViewController {
+    // change VC associated with Main.storyboard
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
