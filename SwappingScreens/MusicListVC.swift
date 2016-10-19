@@ -37,6 +37,7 @@ class MusicListVC: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // preparations prior to segue, such as prepping data you want to send
+        // called before code in destinationVC
         
         if let destination = segue.destination as? PlaySongVC {
             // identify the destinationVC by the segue name
