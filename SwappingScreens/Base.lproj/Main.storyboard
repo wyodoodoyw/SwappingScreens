@@ -93,6 +93,9 @@
                                     <constraint firstAttribute="width" constant="163" id="Hfa-Z8-Qga"/>
                                 </constraints>
                                 <state key="normal" title="Load Third Screen"/>
+                                <connections>
+                                    <action selector="loadThirdVCButtonPressed:" destination="IZm-xp-dJH" eventType="touchUpInside" id="lMI-jj-jWC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>
@@ -101,7 +104,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="6w9-ss-BXf" kind="showDetail" id="YuF-Dx-dsQ"/>
+                        <segue destination="6w9-ss-BXf" kind="showDetail" identifier="showSongVC" id="YuF-Dx-dsQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="euU-2f-buR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -131,8 +134,7 @@
                                     <action selector="backButtonPressed:" destination="6w9-ss-BXf" eventType="touchUpInside" id="pMQ-lR-iCP"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Song Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9oM-D5-wYm">
-                                <frame key="frameInset" minX="110" minY="150" width="155" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9oM-D5-wYm">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="1SQ-3w-P3u"/>
                                     <constraint firstAttribute="width" constant="155" id="2V5-8T-Mj5"/>
@@ -145,6 +147,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="9oM-D5-wYm" firstAttribute="centerX" secondItem="fAc-xF-pze" secondAttribute="centerX" id="0nV-Il-4AD"/>
+                            <constraint firstItem="9oM-D5-wYm" firstAttribute="top" secondItem="XG6-9t-Yx6" secondAttribute="bottom" constant="130" id="wVN-uL-ptV"/>
                         </constraints>
                     </view>
                     <connections>

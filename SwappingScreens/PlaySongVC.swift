@@ -12,10 +12,20 @@ class PlaySongVC: UIViewController {
 
     @IBOutlet weak var songTitleLabel: UILabel!
     
+    private var _selectedSong: String!
+    
+    var selectedSong: String {
+        get {
+            return _selectedSong
+        } set {
+            _selectedSong = newValue
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        songTitleLabel.text = _selectedSong
     }
 
     override func didReceiveMemoryWarning() {
