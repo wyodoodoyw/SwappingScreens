@@ -1,5 +1,5 @@
 //
-//  MusicListVC.swift
+//  PlaySongVC.swift
 //  SwappingScreens
 //
 //  Created by Matthew Wood on 2016-10-18.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-class MusicListVC: UIViewController {
+class PlaySongVC: UIViewController {
 
+    @IBOutlet weak var songTitleLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
-        
-        view.backgroundColor = UIColor.blue
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,7 +24,6 @@ class MusicListVC: UIViewController {
     }
     
     @IBAction func backButtonPressed(_ sender: AnyObject) {
-        dismiss(animated: true, completion: nil)
     }
 
 }

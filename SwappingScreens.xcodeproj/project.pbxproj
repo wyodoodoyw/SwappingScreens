@@ -13,6 +13,7 @@
 		48DF08691DB701400062ED36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DF08681DB701400062ED36 /* Assets.xcassets */; };
 		48DF086C1DB701400062ED36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DF086A1DB701400062ED36 /* LaunchScreen.storyboard */; };
 		48DF08741DB702C20062ED36 /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF08731DB702C20062ED36 /* MusicListVC.swift */; };
+		48DF08761DB706AB0062ED36 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF08751DB706AB0062ED36 /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		48DF086B1DB701400062ED36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48DF086D1DB701400062ED36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48DF08731DB702C20062ED36 /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		48DF08751DB706AB0062ED36 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				48DF08611DB701400062ED36 /* AppDelegate.swift */,
 				48DF08631DB701400062ED36 /* LoginVC.swift */,
 				48DF08731DB702C20062ED36 /* MusicListVC.swift */,
+				48DF08751DB706AB0062ED36 /* PlaySongVC.swift */,
 				48DF08651DB701400062ED36 /* Main.storyboard */,
 				48DF08681DB701400062ED36 /* Assets.xcassets */,
 				48DF086A1DB701400062ED36 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48DF08741DB702C20062ED36 /* MusicListVC.swift in Sources */,
+				48DF08761DB706AB0062ED36 /* PlaySongVC.swift in Sources */,
 				48DF08641DB701400062ED36 /* LoginVC.swift in Sources */,
 				48DF08621DB701400062ED36 /* AppDelegate.swift in Sources */,
 			);
@@ -306,6 +310,7 @@
 				48DF08721DB701400062ED36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
